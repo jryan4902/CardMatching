@@ -8,9 +8,9 @@
 
 
 /* Variables storing an audio objects to make the various sounds.  See how it's used for the 'click' sound in the provided function below.  */
-let clickAudio = new Audio('audio/click.wav');
-let matchAudio = new Audio('audio/match.wav');
-let winAudio = new Audio('audio/win.wav')
+let clickAudio = new Audio('click.wav');
+let matchAudio = new Audio('match.wav');
+let winAudio = new Audio('win.wav')
 
 /* OVERVIEW:
 Attaches an mouseclick listener to a card (i.e. onclick), flips the card when clicked, and calls the function 'onCardFlipped' after the flip is complete.
